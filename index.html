@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Tienda Aurora</title>
+  <link rel="stylesheet" href="styles.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@400;700&display=swap" rel="stylesheet" />
+</head>
+<body>
+
+  <header>
+    <h1>Tienda Aurora</h1>
+    <p>Productos hechos a mano con amor</p>
+  </header>
+
+  <nav>
+    <ul>
+      <li><a href="#inicio">Inicio</a></li>
+      <li><a href="#productos">Productos</a></li>
+      <li><a href="#reseñas">Reseñas</a></li>
+      <li><a href="#contacto">Contacto</a></li>
+    </ul>
+  </nav>
+
+  <main>
+
+
+    <section id="productos" class="productos">
+      <h2>Nuestros Productos</h2>
+      <div class="cards">
+        <div class="card">
+          <img src="vela.webp" alt="Producto 1" />
+          <h3>Vela Aromática</h3>
+          <p>$1500</p>
+        </div>
+        <div class="card">
+          <img src="macetas de colores.webp" alt="Producto 2" />
+          <h3>Maceta Pintada</h3>
+          <p>$2000</p>
+        </div>
+         <div class="card">
+          <img src="macetas de otros tamaños.jpeg" alt="Producto 2" />
+          <h3>Macetas de barro</h3>
+          <p>De $1000 a $3000 *precio a consultar*</p>
+        </div>
+        <div class="card">
+          <img src="molde de stitch.webp" alt="Producto 2" />
+          <h3>Molde de Stitch</h3>
+          <p>$2000</p>
+        </div>
+        <div class="card">
+          <img src="stitch.webp" alt="Producto 2" />
+          <h3>Cuaderno de cuero</h3>
+          <p>$8000</p>
+        </div>
+      </div>
+      
+    </section>
+
+    <section id="reseñas" class="reseñas">
+      <h2>Lo que dicen nuestros clientes</h2>
+      <div class="grid-reseñas">
+        <div>"Hermosos productos y atención excelente."</div>
+        <div>"La vela que compré huele increíble."</div>
+        <div>"Perfecto para regalar, súper recomendados."</div>
+        <div>"Compré varias cosas y todas impecables."</div>
+        <div>"El cuaderno esta muy bueno, tiene un olor fresco."</div>
+        <div>"El precio es aceptable y te hacen descuento si compras mas de una."</div>
+        <div>"Estoy esperando que me llegue el molde, un sueño!! jaja."</div>
+        <div>"La chica que atiende es un encanto, siempre con la mejor onda!."</div>
+        <div>"Los encontre en mercado libre, son muy buenos los productos"</div>
+        <div>"4 horas estuve para encontrar ese molde, gracias a dios encontre esta pagina"</div>
+        <div>"Hola! a mi hija le encantan las masetas, les mando por privado"</div>
+        <div>"Me encanta el molde! ¿tienen otros modelos?"</div>
+        
+      </div>
+    </section>
+
+    <section id="contacto">
+      <h2>Contacto</h2>
+      <h3> Si tienes alguna consulta o Reclamo puedes enviar un mensaje a traves de estas casillas</h3>
+      <form
+  action="https://formspree.io/f/xldbqjep"
+  method="POST"
+>
+  
+<form>
+  <label>
+    Nombre:
+    <input type="text" name="nombre" required>
+  </label>
+  
+  <label>
+    Apellido:
+    <input type="text" name="apellido" required>
+  </label>
+
+  <label>
+    Mail:
+    <input type="email" name="email" required>
+  </label>
+  
+  <label>
+    Mensaje:
+    <textarea name="message" required></textarea>
+  </label>
+  
+  <button type="submit">Send</button>
+</form>
+    </section>
+
+    <section id="video">
+      <h2>Conocé nuestro proceso</h2>
+      <iframe width="560" height="315" src="videoplayback.mp4" 
+        title="Video artesanal" frameborder="0" allowfullscreen></iframe>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Tienda Aurora. Diseñado por Mateo Alves.</p>
+  </footer>
+
+</body>
+</html>
